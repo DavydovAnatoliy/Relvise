@@ -1,1 +1,42 @@
 @import '_nullStyle';
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.eot);
+    src: url(../fonts/Montserrat-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Montserrat-Regular.otf) format('otf'),
+        url(../fonts/Montserrat-Regular.svg#Montserrat-Regular) format('svg'),
+        url(../fonts/Montserrat-Regular.ttf) format('truetype'),
+        url(../fonts/Montserrat-Regular.woff) format('woff'),
+        url(../fonts/Montserrat-Regular.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold.eot);
+    src: url(../fonts/Montserrat-Bold.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Montserrat-Bold.otf) format('otf'),
+        url(../fonts/Montserrat-Bold.svg#Montserrat-Bold) format('svg'),
+        url(../fonts/Montserrat-Bold.ttf) format('truetype'),
+        url(../fonts/Montserrat-Bold.woff) format('woff'),
+        url(../fonts/Montserrat-Bold.woff2) format('woff2');
+}
+
+body.lock{
+overflow: hidden;
+}
+.wrapper{
+    max-width: 1440px;
+    border: 1px solid black;
+    height: 100%;
+}
+.container {
+    max-width: 1041px;
+    margin: 0 auto;
+    padding: 0px 10px;
+    
+}
+
+
+@import '_header';
+
