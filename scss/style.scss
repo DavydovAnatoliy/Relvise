@@ -12,29 +12,51 @@
 }
 
 @font-face {
-    font-family: 'Montserrat-Bold';
-    src: url(../fonts/Montserrat-Bold.eot);
-    src: url(../fonts/Montserrat-Bold.eot?#iefix) format('embedded-opentype'),
-        url(../fonts/Montserrat-Bold.otf) format('otf'),
-        url(../fonts/Montserrat-Bold.svg#Montserrat-Bold) format('svg'),
-        url(../fonts/Montserrat-Bold.ttf) format('truetype'),
-        url(../fonts/Montserrat-Bold.woff) format('woff'),
-        url(../fonts/Montserrat-Bold.woff2) format('woff2');
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat-Medium.eot);
+    src: url(../fonts/Montserrat-Medium.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/Montserrat-Medium.otf) format('otf'),
+        url(../fonts/Montserrat-Medium.svg#Montserrat-Medium) format('svg'),
+        url(../fonts/Montserrat-Medium.ttf) format('truetype'),
+        url(../fonts/Montserrat-Medium.woff) format('woff'),
+        url(../fonts/Montserrat-Medium.woff2) format('woff2');
 }
 
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'), url('../fonts/Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'), url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body{
+    
+}
 body.lock{
 overflow: hidden;
 }
 .wrapper{
-    max-width: 1440px;
-    border: 1px solid black;
-    height: 100%;
+min-height: 100%;
+overflow: hidden;
 }
 .container {
-    max-width: 1041px;
+    max-width: 1066px;
     margin: 0 auto;
-    padding: 0px 10px;
-    
+    padding: 0px 10px;   
 }
 
 
