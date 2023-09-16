@@ -62,7 +62,7 @@ padding: 37px 0px 0px 0px;
     }
 
     &__link {
-        color: #000;
+        color: #737373;
     }
 
     &__burger {
@@ -100,7 +100,7 @@ padding: 37px 0px 0px 0px;
 
         &__logo {
             position: relative;
-            z-index: 1;
+            z-index: 11;
            
             span {
                 font-size: 20px;
@@ -116,6 +116,7 @@ padding: 37px 0px 0px 0px;
         &__menu {
             display: block;
 position: fixed;
+z-index: 10;
 width: 100%;
 height: 100%;
 background-color: #0D5c63;
@@ -145,7 +146,7 @@ padding: 57px 0 0 10px;
         &__burger {
             display: block;
             position: relative;
-            z-index: 1;
+            z-index: 11;
 & span{
       transition: all 1.5s ease 0s;
 }
@@ -184,6 +185,7 @@ padding: 57px 0 0 10px;
         line-height: 30/20*100%;
         /* 150% */
         letter-spacing: 0.2px;
+        color:#737373 ;
     }
 
     &__buttons {
@@ -227,6 +229,8 @@ letter-spacing: 0.2px;
         &__text {
             font-size: 16px;
             margin-bottom: 26px;
+       color: #000000;
+       font-weight: 600;
         }
 
            &__buttons {
@@ -331,5 +335,15 @@ font-size: 17px;
 @media (max-width:960px){
 .header__background{
 opacity: 0.8;
+}
+.header-menu {
+    &__link{
+        color: #242222;
+    }
+}
+.header-content {
+    &__text{
+        color: #242222;
+    }
 }
 }

@@ -62,3 +62,12 @@ overflow: hidden;
 
 @import '_header';
 
+@import '_services';
+
+.page {
+
+    &__advantages {
+        height: 700px;
+        background: #FAFAFA;
+    }
+}
