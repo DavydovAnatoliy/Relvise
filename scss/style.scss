@@ -64,10 +64,8 @@ overflow: hidden;
 
 @import '_services';
 
-.page {
+@import '_advantages';
 
-    &__advantages {
-        height: 700px;
-        background: #FAFAFA;
-    }
-}
+@import '_practice';
+
+@import '_whoweare';
