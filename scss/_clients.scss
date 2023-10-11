@@ -1,0 +1,31 @@
+.page {
+
+    &__clients {
+        background-color:  #FAFAFA;
+        
+    }
+}
+
+.clients {
+
+    &__items {
+        display: flex;
+        padding-top: 41px;
+        padding-bottom: 62px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__item {
+        flex: 0 1 16.667%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 15px;
+        min-width: 140px;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
