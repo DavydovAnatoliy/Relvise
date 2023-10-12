@@ -1409,3 +1409,220 @@ body.lock {
     padding: 25px 15px;
   }
 }
+
+.page__contact {
+  background-color: #FAFAFA;
+  padding: 40px 0;
+}
+
+.contact__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__content {
+  padding-right: 25px;
+}
+
+.contact__content > *:not(:last-child) {
+  margin-bottom: 11px;
+}
+
+.contact__title {
+  color: #252B42;
+  font-family: 'Montserrat-Bold';
+  font-size: 24px;
+  line-height: 133.333%;
+  letter-spacing: 0.1px;
+}
+
+.contact__text {
+  color: #737373;
+  font-family: 'Montserrat-Medium';
+  font-size: 14px;
+  line-height: 142.857%;
+  letter-spacing: 0.2px;
+}
+
+.contact__button {
+  color: #FFF;
+  font-family: 'Montserrat-Bold';
+  font-size: 14px;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  padding: 14px 40px;
+  border-radius: 5px;
+  background: #FF7B47;
+  margin-right: 34px;
+}
+
+@media (max-width: 768px) {
+  .page__contact {
+    padding: 20px 0;
+  }
+  .contact__body {
+    display: block;
+  }
+  .contact__body > *:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  .contact__button {
+    display: block;
+    margin: 0 -15px;
+    text-align: center;
+  }
+  .contact__content {
+    padding: 0;
+  }
+}
+
+.footer__top {
+  background: #17213C;
+  padding: 30px 0;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+  padding: 20px 0;
+}
+
+.footer__label {
+  color: #FFF;
+  font-family: 'Montserrat-Bold';
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  margin-bottom: 20px;
+}
+
+.menu-footer__item_phone {
+  background: url(../img/footer/icons/middle/01.svg) 0 0 no-repeat;
+  padding-left: 30px;
+  min-height: 30px;
+}
+
+.menu-footer__item_map {
+  background: url(../img/footer/icons/middle/02.svg) 0 0 no-repeat;
+  padding-left: 30px;
+}
+
+.menu-footer__item_email {
+  background: url(../img/footer/icons/middle/03.svg) 0 0 no-repeat;
+  padding-left: 30px;
+}
+
+.menu-footer__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.menu-footer__link {
+  color: #FFF;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 14px;
+  line-height: 171.429%;
+  letter-spacing: 0.2px;
+}
+
+.menu-footer__link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer__column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 33.333%;
+            flex: 0 1 33.333%;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer__column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+}
+
+@media (max-width: 393px) {
+  .footer__column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+  }
+}
+
+.footer__bottom {
+  background: #FAFAFA;
+  padding: 15px 0;
+}
+
+.footer__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__body > * {
+  padding: 10px 0;
+}
+
+.footer__copy {
+  color: #737373;
+  font-family: 'Montserrat-SemiBold';
+  font-size: 14px;
+  line-height: 171.429%;
+  letter-spacing: 0.2px;
+}
+
+.container
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container
+.social__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .footer__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
